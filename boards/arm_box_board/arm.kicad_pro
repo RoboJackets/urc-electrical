@@ -465,7 +465,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Drill/",
+      "plot": "gerber_output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
