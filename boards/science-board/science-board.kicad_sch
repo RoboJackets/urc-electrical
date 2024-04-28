@@ -5928,16 +5928,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 118.11) (xy 38.1 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccaa4633-1453-4f22-a43d-e9b7a52934c8")
-	)
-	(wire
-		(pts
 			(xy 30.48 67.31) (xy 30.48 93.98)
 		)
 		(stroke
@@ -6185,16 +6175,6 @@
 			(type default)
 		)
 		(uuid "ed3f3a2a-47ed-4da9-862f-a1d3ccbe4c44")
-	)
-	(wire
-		(pts
-			(xy 41.91 121.92) (xy 38.1 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed62e331-2831-4102-9fb0-745671143c7c")
 	)
 	(wire
 		(pts
@@ -9165,71 +9145,6 @@
 			(project "science-board"
 				(path "/a0ddd645-adb6-4647-8179-fc4b155b4dc3"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 38.1 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a769bd6f-b3e8-4c6d-8ceb-1065ccb55866")
-		(property "Reference" "#PWR023"
-			(at 38.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 38.1 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 38.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19f6088e-218a-4dac-bbbd-56b4ffc5049d")
-		)
-		(instances
-			(project "science-board"
-				(path "/a0ddd645-adb6-4647-8179-fc4b155b4dc3"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
