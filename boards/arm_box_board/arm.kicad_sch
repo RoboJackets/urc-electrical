@@ -7,6 +7,7 @@
 	(title_block
 		(title "Arm_Controller_Board")
 		(date "2024-04-24")
+		(company "RoboNav")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -3452,10 +3453,16 @@
 		)
 	)
 	(junction
-		(at 152.4 153.67)
+		(at 116.84 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a7c6d5c-5f1b-47ff-9d78-421d16608de0")
+		(uuid "0e9a39e3-c126-433b-af8c-fb3baa8f092e")
+	)
+	(junction
+		(at 167.64 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23fa331e-9453-4d85-bc1e-ad68ff7d5706")
 	)
 	(junction
 		(at 127 33.02)
@@ -3470,10 +3477,10 @@
 		(uuid "41ee4183-e22b-45d6-bc91-ef2ad99c2539")
 	)
 	(junction
-		(at 167.64 125.73)
+		(at 116.84 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c72b892-90ed-4341-bcdb-32327e0ec344")
+		(uuid "9373e929-4d42-4713-bc76-436359ad18e6")
 	)
 	(junction
 		(at 110.49 30.48)
@@ -3486,6 +3493,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6e8cf97-565f-4f72-b220-5edc16b36643")
+	)
+	(junction
+		(at 152.4 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4566c0c-2da9-4dc6-9788-253198ced6f1")
 	)
 	(wire
 		(pts
@@ -3539,16 +3552,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 110.49) (xy 147.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b349f0a-439a-440b-bab5-2eb0d715f6b2")
-	)
-	(wire
-		(pts
 			(xy 58.42 74.93) (xy 71.12 74.93)
 		)
 		(stroke
@@ -3599,7 +3602,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 138.43) (xy 152.4 153.67)
+			(xy 152.4 138.43) (xy 152.4 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3619,17 +3622,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 153.67) (xy 152.4 172.72)
+			(xy 128.27 153.67) (xy 223.52 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24dc37ff-a90c-4593-a9b5-7734b80b6091")
+		(uuid "241b5f67-93b4-4bab-a917-cb33b71ffc03")
 	)
 	(wire
 		(pts
-			(xy 129.54 33.02) (xy 129.54 29.21)
+			(xy 129.54 33.02) (xy 129.54 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +3652,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 157.48) (xy 128.27 180.34)
+			(xy 116.84 27.94) (xy 110.49 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b3dd41-b980-4a82-856f-7d562b4518b0")
+	)
+	(wire
+		(pts
+			(xy 128.27 153.67) (xy 128.27 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3679,16 +3692,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 115.57) (xy 167.64 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3205c8e9-1061-4415-979b-f398a4681e74")
-	)
-	(wire
-		(pts
 			(xy 50.8 64.77) (xy 71.12 64.77)
 		)
 		(stroke
@@ -3699,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 29.21) (xy 110.49 29.21)
+			(xy 129.54 27.94) (xy 116.84 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3716,6 +3719,16 @@
 			(type default)
 		)
 		(uuid "3b009c53-2240-44aa-9e24-91f3368a1732")
+	)
+	(wire
+		(pts
+			(xy 167.64 125.73) (xy 175.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd5b4de-bd6a-47c2-a881-e5fac6fd0cf4")
 	)
 	(wire
 		(pts
@@ -3739,16 +3752,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 167.64 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4353a296-2988-432c-bdfd-b3d191c7c678")
-	)
-	(wire
-		(pts
 			(xy 124.46 35.56) (xy 124.46 105.41)
 		)
 		(stroke
@@ -3759,17 +3762,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 125.73) (xy 167.64 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b33967a-4072-4485-8217-6542b50d2aa2")
-	)
-	(wire
-		(pts
-			(xy 149.86 120.65) (xy 149.86 177.8)
+			(xy 149.86 115.57) (xy 149.86 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3829,6 +3822,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 157.48) (xy 152.4 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e195772-5f1c-49df-883c-ffb91fe34dab")
+	)
+	(wire
+		(pts
+			(xy 149.86 115.57) (xy 175.26 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b42df0-55a7-4684-9619-f7d5c1bc113b")
+	)
+	(wire
+		(pts
 			(xy 152.4 172.72) (xy 116.84 172.72)
 		)
 		(stroke
@@ -3839,13 +3852,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 153.67) (xy 152.4 153.67)
+			(xy 116.84 33.02) (xy 127 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c4f53d9-5de4-4427-a382-3c8098e0ab11")
+		(uuid "66bfc0ce-a71c-4140-9a27-cec3a3e990d0")
 	)
 	(wire
 		(pts
@@ -3859,6 +3872,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 153.67) (xy 223.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c36ef1-e80c-4346-ad77-ab645bb86593")
+	)
+	(wire
+		(pts
 			(xy 116.84 107.95) (xy 127 107.95)
 		)
 		(stroke
@@ -3869,7 +3892,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 29.21) (xy 110.49 30.48)
+			(xy 110.49 27.94) (xy 110.49 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3956,16 +3979,6 @@
 			(type default)
 		)
 		(uuid "93abd044-d081-48f0-a446-a658e4d80cd4")
-	)
-	(wire
-		(pts
-			(xy 147.32 110.49) (xy 147.32 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "947c0a23-6e35-4c76-a947-3275aaf20874")
 	)
 	(wire
 		(pts
@@ -4069,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 33.02) (xy 127 33.02)
+			(xy 96.52 33.02) (xy 116.84 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4079,13 +4092,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 120.65) (xy 149.86 120.65)
+			(xy 147.32 120.65) (xy 147.32 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9bba9c4-2979-420c-b147-67edfb866977")
+		(uuid "b3eb08fe-2775-48e3-9b23-a64cd69757d8")
+	)
+	(wire
+		(pts
+			(xy 152.4 157.48) (xy 219.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f053e4-17a4-4d80-85b6-e0f9f53fcd73")
 	)
 	(wire
 		(pts
@@ -4119,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 125.73) (xy 167.64 129.54)
+			(xy 167.64 110.49) (xy 167.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4146,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "cf7f8979-90bc-4b73-a823-c2644d68cf52")
-	)
-	(wire
-		(pts
-			(xy 219.71 157.48) (xy 128.27 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a19e40-271b-4b88-961c-d6cac8521215")
 	)
 	(wire
 		(pts
@@ -4189,16 +4202,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 105.41) (xy 223.52 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc248b01-d0e3-4f97-a7a5-eb8b8c6db82a")
-	)
-	(wire
-		(pts
 			(xy 110.49 74.93) (xy 110.49 66.04)
 		)
 		(stroke
@@ -4206,6 +4209,26 @@
 			(type default)
 		)
 		(uuid "ddb3346f-916c-4db8-b5a6-a7f984c8dba5")
+	)
+	(wire
+		(pts
+			(xy 175.26 120.65) (xy 147.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1df7fb9-377a-4b87-a955-3bb0851252ec")
+	)
+	(wire
+		(pts
+			(xy 167.64 125.73) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5467d79-128a-4de4-9485-786d02c4760d")
 	)
 	(wire
 		(pts
@@ -4246,6 +4269,16 @@
 			(type default)
 		)
 		(uuid "fad51224-9ca9-45af-ac03-9792ec364950")
+	)
+	(wire
+		(pts
+			(xy 175.26 110.49) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbb0280-6312-4c35-a307-11a8c326afca")
 	)
 	(symbol
 		(lib_id "TMC2209_SILENTSTEPSTICK:TMC2209_SILENTSTEPSTICK")
@@ -4816,6 +4849,76 @@
 			(project "arm"
 				(path "/6efa7246-3eee-490a-97b2-6bc708ce4162"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88742cac-0b1b-4617-b11c-eec0e238f7fc")
+		(property "Reference" "C2"
+			(at 119.38 29.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Large"
+			(at 119.38 31.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f5b8c29-09ef-49e4-80e7-57e90c09a3e5")
+		)
+		(pin "2"
+			(uuid "4c9f14f7-5fb4-4266-8c0b-7e0ae34ef055")
+		)
+		(instances
+			(project "arm"
+				(path "/6efa7246-3eee-490a-97b2-6bc708ce4162"
+					(reference "C2")
 					(unit 1)
 				)
 			)
