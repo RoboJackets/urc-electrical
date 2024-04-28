@@ -1,4 +1,6 @@
 import libarary:
 J00-0045L, https://www.snapeda.com/parts/J00-0045NL/Pulse%20Electronics%20Network/view-part/
 
+for the detailed info of the pin configuration please refer to: https://www.pjrc.com/store/ethernet_kit.html
+
 for teensy library, refer to the arm box.
