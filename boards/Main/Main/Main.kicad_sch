@@ -5581,6 +5581,12 @@
 		(uuid "27a39cf5-95dd-4cb1-ba15-b5973787ce06")
 	)
 	(junction
+		(at 157.48 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3775e4a7-4333-41a9-88e4-2793fcab83c8")
+	)
+	(junction
 		(at 185.42 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5775,6 +5781,10 @@
 	(no_connect
 		(at 140.97 101.6)
 		(uuid "03f86335-363f-4e08-8ddd-f21927a90891")
+	)
+	(no_connect
+		(at 85.09 64.77)
+		(uuid "0ead1789-5a8a-4943-b0b6-3e64bdf6a4df")
 	)
 	(no_connect
 		(at 85.09 52.07)
@@ -6560,7 +6570,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 34.29) (xy 160.02 34.29)
+			(xy 140.97 34.29) (xy 157.48 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6857,6 +6867,16 @@
 			(type default)
 		)
 		(uuid "81445ada-7f6a-4bb9-8b39-32e32568b019")
+	)
+	(wire
+		(pts
+			(xy 157.48 26.67) (xy 157.48 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b20239-0b7d-4df0-ab2b-6b546fe90eea")
 	)
 	(wire
 		(pts
@@ -7390,16 +7410,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 64.77) (xy 85.09 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dabc8362-cb0b-4d16-96b4-6bc77a5f3320")
-	)
-	(wire
-		(pts
 			(xy 163.83 96.52) (xy 163.83 85.09)
 		)
 		(stroke
@@ -7557,6 +7567,16 @@
 			(type default)
 		)
 		(uuid "f1754628-9c38-46d0-a680-4e29af856a46")
+	)
+	(wire
+		(pts
+			(xy 157.48 34.29) (xy 160.02 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17f6b0d-e9f0-4b7e-8f8e-13f4331b4027")
 	)
 	(wire
 		(pts
@@ -7840,17 +7860,6 @@
 			(justify right bottom)
 		)
 		(uuid "579cd12a-68b8-4b95-9c39-44b555c8803c")
-	)
-	(label "3.3V"
-		(at 76.2 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58249c3c-2919-4ed9-9fbf-e9331c906b31")
 	)
 	(label "M3L"
 		(at 17.78 72.39 180)
@@ -8137,6 +8146,17 @@
 			(justify left bottom)
 		)
 		(uuid "c53e7588-9ea3-45fd-b96b-4e84ee1906a7")
+	)
+	(label "3.3V"
+		(at 157.48 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb15d305-249e-46df-bc25-6644fc2481fa")
 	)
 	(label "TEH"
 		(at 30.48 72.39 0)
