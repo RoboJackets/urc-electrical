@@ -1558,26 +1558,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 22.86 0)
+			(property "Reference" "TMC_2209"
+				(at 0 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "TMC2209_SILENTSTEPSTICK"
-				(at -12.7 -22.86 0)
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1587,7 +1585,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1596,7 +1594,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1604,18 +1602,8 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Trinamic Motion Control GmbH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nTMC2209 Motor Controller/Driver Power Management Evaluation Board\n"
-				(at 0 0 0)
+			(property "MF" ""
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1624,8 +1612,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
+			(property "Description_1" ""
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1634,8 +1622,8 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
+			(property "Package" ""
+				(at 16.256 -31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1644,8 +1632,8 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TMC2209%20SILENTSTEPSTICK/Trinamic+Motion+Control+GmbH/view-part/?ref=eda"
-				(at 0 0 0)
+			(property "Price" ""
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1654,8 +1642,8 @@
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
+			(property "Check_prices" ""
+				(at 9.144 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1664,8 +1652,8 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "1.20"
-				(at 0 0 0)
+			(property "STANDARD" ""
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1674,8 +1662,8 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMC2209%20SILENTSTEPSTICK/Trinamic+Motion+Control+GmbH/view-part/?ref=snap"
-				(at 0 0 0)
+			(property "PARTREV" ""
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1684,8 +1672,8 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "TMC2209 SILENTSTEPSTICK"
-				(at 0 0 0)
+			(property "SnapEDA_Link" ""
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1694,8 +1682,8 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Trinamic Motion Control GmbH"
-				(at 0 0 0)
+			(property "MP" ""
+				(at 25.654 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1704,8 +1692,18 @@
 					(hide yes)
 				)
 			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
+			(property "MANUFACTURER" ""
+				(at 25.654 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" ""
+				(at 26.67 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1715,7 +1713,7 @@
 				)
 			)
 			(property "SNAPEDA_PN" "TMC2209 SILENTSTEPSTICK"
-				(at 0 0 0)
+				(at 0 12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1726,8 +1724,8 @@
 			)
 			(symbol "TMC2209_SILENTSTEPSTICK_0_0"
 				(rectangle
-					(start -12.7 -20.32)
-					(end 12.7 20.32)
+					(start -12.7 17.78)
+					(end 12.7 -22.86)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1737,7 +1735,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -17.78 180)
+					(at 17.78 -11.43 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1755,7 +1753,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 5.08 0)
+					(at -17.78 -11.43 0)
 					(length 5.08)
 					(name "STEP"
 						(effects
@@ -1772,62 +1770,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 -10.16 0)
-					(length 5.08)
-					(name "PDN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -12.7 0)
-					(length 5.08)
-					(name "UART"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "SPRD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -5.08 0)
+					(at -17.78 7.62 0)
 					(length 5.08)
 					(name "MS2"
 						(effects
@@ -1845,7 +1789,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -2.54 0)
+					(at -17.78 10.16 0)
 					(length 5.08)
 					(name "MS1"
 						(effects
@@ -1863,7 +1807,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 10.16 0)
+					(at -17.78 15.24 0)
 					(length 5.08)
 					(name "~{EN}"
 						(effects
@@ -1881,7 +1825,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 10.16 180)
+					(at 17.78 16.51 180)
 					(length 5.08)
 					(name "INDEX"
 						(effects
@@ -1899,7 +1843,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 7.62 180)
+					(at 17.78 13.97 180)
 					(length 5.08)
 					(name "DIAG"
 						(effects
@@ -1917,7 +1861,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 17.78 180)
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "VIO"
 						(effects
@@ -1934,80 +1878,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "M1B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "M1A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "M2A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "M2B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 17.78 -17.78 180)
+					(at 17.78 -11.43 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -2025,7 +1897,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 15.24 180)
+					(at 17.78 -17.78 180)
 					(length 5.08)
 					(name "VM"
 						(effects
@@ -2043,7 +1915,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 2.54 0)
+					(at -17.78 -17.78 0)
 					(length 5.08)
 					(name "DIR"
 						(effects
@@ -2053,6 +1925,134 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TMC2209_SILENTSTEPSTICK_1_0"
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "TX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "RX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "MA1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "MA2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "MB1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "MB2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3483,6 +3483,12 @@
 		(uuid "9373e929-4d42-4713-bc76-436359ad18e6")
 	)
 	(junction
+		(at 127 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98edd936-363d-421a-89f1-1a1caa77c9fc")
+	)
+	(junction
 		(at 133.35 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3499,12 +3505,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c46dcf75-4791-48cc-95d8-8d686be36228")
-	)
-	(junction
-		(at 127 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6e8cf97-565f-4f72-b220-5edc16b36643")
 	)
 	(junction
 		(at 127 43.18)
@@ -3524,25 +3524,19 @@
 		(color 0 0 0 0)
 		(uuid "e4566c0c-2da9-4dc6-9788-253198ced6f1")
 	)
-	(wire
-		(pts
-			(xy 128.27 67.31) (xy 128.27 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0335a614-d82c-4646-8fc8-a7634a4d8cf2")
+	(no_connect
+		(at 80.01 62.23)
+		(uuid "d1f6620c-ec4f-4f8a-8f27-0779266d0e68")
 	)
 	(wire
 		(pts
-			(xy 53.34 59.69) (xy 71.12 59.69)
+			(xy 106.68 69.85) (xy 130.81 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "040fc677-bee2-43e9-881a-a3c18006ff5b")
+		(uuid "01f42a9e-8111-45b3-b13d-b531a29ecd1e")
 	)
 	(wire
 		(pts
@@ -3556,13 +3550,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 72.39) (xy 55.88 110.49)
+			(xy 41.91 67.31) (xy 41.91 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0952bcb6-7047-4e49-84a0-1131b94b113c")
+	)
+	(wire
+		(pts
+			(xy 48.26 118.11) (xy 48.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d2dfb4-6b86-4ac4-b1a3-f29429024f9a")
 	)
 	(wire
 		(pts
@@ -3576,33 +3580,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 71.12 74.93)
+			(xy 55.88 69.85) (xy 55.88 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c3908a9-6456-44ce-ba3b-e37bbaa9072f")
+		(uuid "0b264108-01bb-4193-9525-48a78c794955")
 	)
 	(wire
 		(pts
-			(xy 119.38 72.39) (xy 119.38 74.93)
+			(xy 127 81.28) (xy 127 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0df6b994-0dd7-4e6c-85a2-47d8133d4819")
-	)
-	(wire
-		(pts
-			(xy 106.68 69.85) (xy 130.81 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c48e25-069e-4b3d-97cc-abea41c8c175")
+		(uuid "13b75905-e90e-4c1e-9b78-4efb1dd3d615")
 	)
 	(wire
 		(pts
@@ -3616,13 +3610,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 67.31) (xy 128.27 67.31)
+			(xy 55.88 69.85) (xy 71.12 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a7e9b6e-f317-4873-945d-ee7162db93d1")
+		(uuid "1ecb5365-2087-4635-bdf9-8e07347db165")
 	)
 	(wire
 		(pts
@@ -3636,13 +3630,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 64.77) (xy 50.8 115.57)
+			(xy 106.68 74.93) (xy 130.81 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "206c00f3-c664-4e8f-9c66-4d49b375cf22")
+		(uuid "1f8f300a-a9b9-43fc-ac2a-c31345c1746e")
 	)
 	(wire
 		(pts
@@ -3686,6 +3680,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 54.61) (xy 71.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c174a6-1904-4430-bc75-69a8f5775257")
+	)
+	(wire
+		(pts
 			(xy 128.27 153.67) (xy 128.27 180.34)
 		)
 		(stroke
@@ -3706,7 +3710,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 54.61) (xy 106.68 54.61)
+			(xy 110.49 87.63) (xy 106.68 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3716,13 +3720,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 64.77) (xy 71.12 64.77)
+			(xy 106.68 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3749117b-a92e-4384-a796-585a4c8605f9")
+		(uuid "30f13b49-7d07-4f66-bd43-7aca2dce665b")
 	)
 	(wire
 		(pts
@@ -3753,26 +3757,6 @@
 			(type default)
 		)
 		(uuid "3bd5b4de-bd6a-47c2-a881-e5fac6fd0cf4")
-	)
-	(wire
-		(pts
-			(xy 130.81 66.04) (xy 130.81 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d361e0b-cd75-4d38-b69f-d52c479ea999")
-	)
-	(wire
-		(pts
-			(xy 110.49 66.04) (xy 130.81 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4297e3ce-b4ac-4c67-9dff-d1baabbf1980")
 	)
 	(wire
 		(pts
@@ -3836,16 +3820,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 72.39) (xy 119.38 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55d6713e-c9d2-4d53-9242-e6367b8eb955")
-	)
-	(wire
-		(pts
 			(xy 120.65 118.11) (xy 127 118.11)
 		)
 		(stroke
@@ -3856,17 +3830,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 127 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "595e9271-cdea-465d-8c40-0f30fc15d498")
-	)
-	(wire
-		(pts
-			(xy 121.92 52.07) (xy 121.92 110.49)
+			(xy 121.92 64.77) (xy 121.92 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3926,7 +3890,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 127 87.63)
+			(xy 127 43.18) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3943,6 +3907,16 @@
 			(type default)
 		)
 		(uuid "6f79610e-e47d-42d9-a38f-f8e9db424d99")
+	)
+	(wire
+		(pts
+			(xy 106.68 67.31) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709739e6-ffa4-47f9-837d-0393ab2a700a")
 	)
 	(wire
 		(pts
@@ -4036,16 +4010,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 74.93) (xy 130.81 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84abffa3-5986-41b4-86c1-82406be66a52")
-	)
-	(wire
-		(pts
 			(xy 96.52 30.48) (xy 110.49 30.48)
 		)
 		(stroke
@@ -4076,23 +4040,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 107.95) (xy 60.96 107.95)
+			(xy 55.88 107.95) (xy 60.96 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "934f320a-4baa-4fca-b750-39fcf12d308b")
-	)
-	(wire
-		(pts
-			(xy 58.42 74.93) (xy 58.42 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93abd044-d081-48f0-a446-a658e4d80cd4")
 	)
 	(wire
 		(pts
@@ -4116,33 +4070,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 48.26 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96f34526-bd27-4683-8dcd-6fcb439ee4cb")
-	)
-	(wire
-		(pts
-			(xy 55.88 110.49) (xy 60.96 110.49)
+			(xy 41.91 110.49) (xy 60.96 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98704a1d-903b-44e8-9c97-f1e4241a421d")
-	)
-	(wire
-		(pts
-			(xy 48.26 67.31) (xy 71.12 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a211746-dfe8-474d-91d0-a07a1c18d326")
 	)
 	(wire
 		(pts
@@ -4166,16 +4100,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 72.39) (xy 130.81 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6896dcf-11b3-4fe2-a801-e681955e2a40")
-	)
-	(wire
-		(pts
 			(xy 143.51 33.02) (xy 129.54 33.02)
 		)
 		(stroke
@@ -4186,27 +4110,27 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 127 87.63)
+			(xy 53.34 54.61) (xy 53.34 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab7a6703-51fd-4053-8976-7eb776ae0b70")
+		(uuid "a755970f-dcf4-4068-afdf-7fcce91fd5fe")
 	)
 	(wire
 		(pts
-			(xy 55.88 72.39) (xy 71.12 72.39)
+			(xy 106.68 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adf1a371-bc7a-47ea-87e1-558cf35a26bf")
+		(uuid "a9c46bfd-ef72-4cfb-9b11-592a9639b6fb")
 	)
 	(wire
 		(pts
-			(xy 106.68 52.07) (xy 121.92 52.07)
+			(xy 106.68 64.77) (xy 121.92 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4233,6 +4157,16 @@
 			(type default)
 		)
 		(uuid "b3eb08fe-2775-48e3-9b23-a64cd69757d8")
+	)
+	(wire
+		(pts
+			(xy 41.91 67.31) (xy 71.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6dfe4c2-85f3-4510-9ae0-a97ebf992f7e")
 	)
 	(wire
 		(pts
@@ -4296,16 +4230,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 59.69) (xy 53.34 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7ca70c9-b96c-465c-ae28-ff5d164145a4")
-	)
-	(wire
-		(pts
 			(xy 167.64 110.49) (xy 167.64 125.73)
 		)
 		(stroke
@@ -4313,6 +4237,26 @@
 			(type default)
 		)
 		(uuid "c91d7e5c-fee5-4873-86df-90244aca96d4")
+	)
+	(wire
+		(pts
+			(xy 50.8 115.57) (xy 50.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9481aa2-59c1-4951-bf5a-f2222759c485")
+	)
+	(wire
+		(pts
+			(xy 48.26 87.63) (xy 71.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce612778-2dc8-49a1-a33c-224103853963")
 	)
 	(wire
 		(pts
@@ -4366,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 30.48) (xy 110.49 54.61)
+			(xy 110.49 30.48) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4383,16 +4327,6 @@
 			(type default)
 		)
 		(uuid "dce01cca-68e9-4c73-8a67-2b61b25b794f")
-	)
-	(wire
-		(pts
-			(xy 110.49 74.93) (xy 110.49 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb3346f-916c-4db8-b5a6-a7f984c8dba5")
 	)
 	(wire
 		(pts
@@ -4436,16 +4370,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 74.93) (xy 110.49 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f782e774-063d-446b-a5a9-abc178cd299a")
-	)
-	(wire
-		(pts
 			(xy 147.32 182.88) (xy 116.84 182.88)
 		)
 		(stroke
@@ -4474,6 +4398,60 @@
 		)
 		(uuid "fdbb0280-6312-4c35-a307-11a8c326afca")
 	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe880018-a5b7-4ecf-b8fd-5f523402adee")
+	)
+	(label "B2"
+		(at 116.84 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4583d5f8-ae3f-4d9c-a714-70602e6fb27e")
+	)
+	(label "A2"
+		(at 116.84 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8259f1be-c2fb-4d65-a1f3-cab5f7b139d4")
+	)
+	(label "A1"
+		(at 116.84 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fae19585-5b58-4b07-b295-b9ffdad756a7")
+	)
+	(label "B1"
+		(at 116.84 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc2b8f5b-95c3-469b-b120-c5a856ef379c")
+	)
 	(symbol
 		(lib_id "TMC2209_SILENTSTEPSTICK:TMC2209_SILENTSTEPSTICK")
 		(at 88.9 69.85 0)
@@ -4500,8 +4478,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Bigtreetech_TMC2209:MODULE_TMC2209_SILENTSTEPSTICK"
-			(at 88.9 69.85 0)
+		(property "Footprint" ""
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 69.85 0)
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4498,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 69.85 0)
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,18 +4506,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Trinamic Motion Control GmbH"
-			(at 88.9 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nTMC2209 Motor Controller/Driver Power Management Evaluation Board\n"
-			(at 88.9 69.85 0)
+		(property "MF" ""
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,8 +4516,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 88.9 69.85 0)
+		(property "Description_1" ""
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,8 +4526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 88.9 69.85 0)
+		(property "Package" ""
+			(at 105.156 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,8 +4536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TMC2209%20SILENTSTEPSTICK/Trinamic+Motion+Control+GmbH/view-part/?ref=eda"
-			(at 88.9 69.85 0)
+		(property "Price" ""
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,8 +4546,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 88.9 69.85 0)
+		(property "Check_prices" ""
+			(at 98.044 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,8 +4556,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1.20"
-			(at 88.9 69.85 0)
+		(property "STANDARD" ""
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,8 +4566,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMC2209%20SILENTSTEPSTICK/Trinamic+Motion+Control+GmbH/view-part/?ref=snap"
-			(at 88.9 69.85 0)
+		(property "PARTREV" ""
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,8 +4576,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "TMC2209 SILENTSTEPSTICK"
-			(at 88.9 69.85 0)
+		(property "SnapEDA_Link" ""
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,8 +4586,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Trinamic Motion Control GmbH"
-			(at 88.9 69.85 0)
+		(property "MP" ""
+			(at 114.554 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,8 +4596,18 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
-			(at 88.9 69.85 0)
+		(property "MANUFACTURER" ""
+			(at 114.554 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 115.57 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4617,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "TMC2209 SILENTSTEPSTICK"
-			(at 88.9 69.85 0)
+			(at 88.9 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e90a2ed-7e95-48da-a9e7-bbf3618e234b")
-		(property "Reference" "Pwr_Cnvt1"
+		(property "Reference" "5V_BUCK"
 			(at 88.265 20.32 0)
 			(effects
 				(font
@@ -5042,7 +5020,7 @@
 		(instances
 			(project "arm"
 				(path "/6efa7246-3eee-490a-97b2-6bc708ce4162"
-					(reference "Pwr_Cnvt1")
+					(reference "5V_BUCK")
 					(unit 1)
 				)
 			)
@@ -5057,7 +5035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "869502f7-02e9-4081-9de4-ee3b8d1cb8cd")
-		(property "Reference" "Ext_grounds1"
+		(property "Reference" "Ground"
 			(at 142.24 45.7199 0)
 			(effects
 				(font
@@ -5073,6 +5051,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
@@ -5117,7 +5096,7 @@
 		(instances
 			(project "arm"
 				(path "/6efa7246-3eee-490a-97b2-6bc708ce4162"
-					(reference "Ext_grounds1")
+					(reference "Ground")
 					(unit 1)
 				)
 			)
@@ -5435,7 +5414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a02e1123-a29e-4ba4-a0f4-9fa9bd2e70ae")
-		(property "Reference" "24V1"
+		(property "Reference" "24V"
 			(at 151.13 30.4799 0)
 			(effects
 				(font
@@ -5489,7 +5468,7 @@
 		(instances
 			(project "arm"
 				(path "/6efa7246-3eee-490a-97b2-6bc708ce4162"
-					(reference "24V1")
+					(reference "24V")
 					(unit 1)
 				)
 			)
@@ -5575,7 +5554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbcfff53-55e2-4604-9d50-a5cfd684fa39")
-		(property "Reference" "Output1"
+		(property "Reference" "Stepper"
 			(at 138.43 69.8499 0)
 			(effects
 				(font
@@ -5635,7 +5614,7 @@
 		(instances
 			(project "arm"
 				(path "/6efa7246-3eee-490a-97b2-6bc708ce4162"
-					(reference "Output1")
+					(reference "Stepper")
 					(unit 1)
 				)
 			)
@@ -5650,7 +5629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1d798af-7723-4ff7-9e18-06d20cfaa4e7")
-		(property "Reference" "Ext_IO1"
+		(property "Reference" "Ext_IO_pins"
 			(at 134.62 115.5699 0)
 			(effects
 				(font
@@ -5666,6 +5645,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
@@ -5710,7 +5690,7 @@
 		(instances
 			(project "arm"
 				(path "/6efa7246-3eee-490a-97b2-6bc708ce4162"
-					(reference "Ext_IO1")
+					(reference "Ext_IO_pins")
 					(unit 1)
 				)
 			)
