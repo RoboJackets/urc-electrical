@@ -1,4 +1,4 @@
-23128441496223845
+23150551804943920
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63482,6 +63482,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+GX-16-3
+
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -87086,13 +87093,6 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
-Robonav
-GX-16-3
-
-
-0
-3
-3
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -88843,13 +88843,6 @@ Logo WEEE
 0
 0
 0
-TMC2209_SILENTSTEPSTICK
-MODULE_TMC2209_SILENTSTEPSTICK
-
-
-0
-18
-18
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
