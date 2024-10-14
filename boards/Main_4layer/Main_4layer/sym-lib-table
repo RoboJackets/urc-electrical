@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "teensy")(type "Legacy")(uri "/Users/jaketae/Documents/URC Library/teensy_library-master/teensy.lib")(options "")(descr ""))
+  (lib (name "J00-0045NL")(type "KiCad")(uri "/Users/jaketae/Documents/URC Library/J00-0045NL/J00-0045NL.kicad_sym")(options "")(descr ""))
+)
