@@ -67,6 +67,76 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -2.5 -1.465063)
+		(end 0 2.865064)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a4b0e444-d7c7-4ddd-9013-4268b0dfdad8")
+	)
+	(fp_line
+		(start -2.5 -1.465063)
+		(end 1.25 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2bfbbf26-1bf7-4f3f-8210-6d29247c686c")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b39cffb3-70e6-469d-b190-57b5427e9345")
+	)
+	(fp_line
+		(start 0 2.865064)
+		(end 0 -1.465063)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e910b619-508a-473f-bba9-7d88e467ce3e")
+	)
+	(fp_line
+		(start 0 2.865064)
+		(end 2.5 -1.465063)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b4daaaaf-ae8d-4c09-8c0c-b5c33d4de7c3")
+	)
+	(fp_line
+		(start 2.5 -1.465063)
+		(end -2.5 -1.465063)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3d6bac0a-2666-4a65-a1cc-3335f2019251")
+	)
+	(fp_line
+		(start 2.5 -1.465063)
+		(end -1.25 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "67ab405b-c611-4428-bc25-ead5e120f0be")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 6.5 0)
@@ -102,27 +172,34 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -2.54 -2.54)
-		(size 3 3)
-		(drill 2.6)
+		(at 2.5 -1.465063)
+		(size 4 4)
+		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "6926212d-5392-4911-b5d7-7c40a9e8e856")
 	)
 	(pad "2" thru_hole circle
-		(at 2.54 -2.54)
-		(size 3 3)
-		(drill 2.6)
+		(at 0 2.865064)
+		(size 4 4)
+		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7c3077b1-e19f-4e88-a2e4-bcb0340c2b91")
 	)
 	(pad "3" thru_hole circle
-		(at 0 2.54)
-		(size 3 3)
-		(drill 2.6)
+		(at -2.5 -1.465063)
+		(size 4 4)
+		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d85f31f9-a990-4288-b42a-1af6469a88dd")
+	)
+	(group ""
+		(uuid "8ae56efc-c29c-402c-abd7-9c078a55113e")
+		(members "2bfbbf26-1bf7-4f3f-8210-6d29247c686c" "3d6bac0a-2666-4a65-a1cc-3335f2019251"
+			"67ab405b-c611-4428-bc25-ead5e120f0be" "a4b0e444-d7c7-4ddd-9013-4268b0dfdad8"
+			"b4daaaaf-ae8d-4c09-8c0c-b5c33d4de7c3" "e910b619-508a-473f-bba9-7d88e467ce3e"
+		)
 	)
 )
