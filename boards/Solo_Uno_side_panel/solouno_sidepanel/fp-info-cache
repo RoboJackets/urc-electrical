@@ -1,4 +1,4 @@
-24078889085884918
+24080620961313629
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6572,6 +6572,13 @@ http://www.lsmtron.com/pdf/Connector&Antenna_catalog.PDF
 0
 34
 34
+Connector
+GX-16-3
+
+
+0
+3
+3
 Connector
 IHI_B6A-PCB-45_Vertical
 https://lugsdirect.com/PDF_Webprint/B6A-PCB-45-XX(-X).pdf

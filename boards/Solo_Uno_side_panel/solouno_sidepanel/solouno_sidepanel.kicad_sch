@@ -2669,7 +2669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:GX-16-3"
+		(property "Footprint" "Connector:GX-16-3"
 			(at 69.85 72.39 0)
 			(effects
 				(font
