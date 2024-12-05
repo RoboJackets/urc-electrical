@@ -2096,7 +2096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:GX-16-3"
+		(property "Footprint" "Robonav:GX-16-3"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -2199,7 +2199,7 @@
 			(uuid "618516e3-afc2-40e9-ad81-f5192d9cfdc4")
 		)
 		(instances
-			(project ""
+			(project "solouno_sidepanel"
 				(path "/fdb62d32-debd-41f2-861f-5e33af64510a"
 					(reference "S1")
 					(unit 1)
