@@ -8661,6 +8661,7 @@
 	)
 	(symbol
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(lib_id "Device:C")
 		(at 105.41 53.34 180)
 		(unit 1)
@@ -8730,6 +8731,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
