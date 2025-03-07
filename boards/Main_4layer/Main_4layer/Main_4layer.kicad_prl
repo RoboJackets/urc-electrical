@@ -2,7 +2,11 @@
   "board": {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "active_layer": 37,
+=======
+    "active_layer": 2,
+>>>>>>> Stashed changes
 =======
     "active_layer": 2,
 >>>>>>> Stashed changes
@@ -74,7 +78,11 @@
     ],
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "visible_layers": "800ffff_fffffff9",
+=======
+    "visible_layers": "803ffff_ffffffff",
+>>>>>>> Stashed changes
 =======
     "visible_layers": "803ffff_ffffffff",
 >>>>>>> Stashed changes
