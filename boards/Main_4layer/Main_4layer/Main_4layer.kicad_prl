@@ -1,10 +1,6 @@
 {
   "board": {
-<<<<<<< HEAD
-    "active_layer": 2,
-=======
-    "active_layer": 37,
->>>>>>> parent of 44819e8 (Libraries added)
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -68,15 +64,7 @@
       39,
       40
     ],
-<<<<<<< HEAD
-<<<<<<< Updated upstream
     "visible_layers": "fffffff_ffffffff",
-=======
-    "visible_layers": "803ffff_ffffffff",
->>>>>>> Stashed changes
-=======
-    "visible_layers": "800ffff_fffffff9",
->>>>>>> parent of 44819e8 (Libraries added)
     "zone_display_mode": 0
   },
   "git": {
