@@ -225,7 +225,7 @@
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=15.24mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 15.24mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R3"
-			(at 7.62 0 270)
+			(at 7.62 0 -90)
 			(layer "F.SilkS")
 			(uuid "7bd254c4-997f-4e4f-b5d9-294a6e956611")
 			(effects
@@ -958,7 +958,7 @@
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=15.24mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 15.24mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R1"
-			(at 7.62 0 270)
+			(at 7.62 0 -90)
 			(layer "F.SilkS")
 			(uuid "0edb5f06-10c7-4b4b-90db-f7b31b7cd242")
 			(effects
@@ -1230,7 +1230,7 @@
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=15.24mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 15.24mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R4"
-			(at 7.62 0 270)
+			(at 7.62 0 -90)
 			(layer "F.SilkS")
 			(uuid "64ce12fb-8321-4522-b126-637764491499")
 			(effects
@@ -1514,7 +1514,7 @@
 			)
 		)
 		(property "Value" "Digital I/O"
-			(at -5.31 3.668 270)
+			(at -5.31 3.668 -90)
 			(layer "F.SilkS")
 			(uuid "3b79cabd-8cb9-412d-96c7-a6655711e899")
 			(effects
@@ -3939,7 +3939,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D3"
-			(at 1.27 -3.96 270)
+			(at 1.27 -3.96 -90)
 			(layer "F.SilkS")
 			(uuid "2ad7ab30-60d4-472f-871b-4c5f20ff63a3")
 			(effects
@@ -4768,7 +4768,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D1"
-			(at 1.27 -3.96 270)
+			(at 1.27 -3.96 -90)
 			(layer "F.SilkS")
 			(uuid "80053283-9647-4cca-ad03-6cf0d57e6fd1")
 			(effects
@@ -5023,7 +5023,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D2"
-			(at 1.27 -3.96 270)
+			(at 1.27 -3.96 -90)
 			(layer "F.SilkS")
 			(uuid "94862cff-c685-4d6a-850e-36940d9a777d")
 			(effects
@@ -8391,7 +8391,7 @@
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*4.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 7.5 0.0075 270)
+			(at 7.5 0.0075 -90)
 			(layer "F.SilkS")
 			(uuid "7c0510a5-bad0-41d4-9770-93905e4fca69")
 			(effects
@@ -8823,7 +8823,7 @@
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=15.24mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 15.24mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R2"
-			(at 7.62 0 270)
+			(at 7.62 0 -90)
 			(layer "F.SilkS")
 			(uuid "1453851c-d0c0-4fdb-a865-cbc91e51a729")
 			(effects

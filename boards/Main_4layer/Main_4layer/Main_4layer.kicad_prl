@@ -1,6 +1,10 @@
 {
   "board": {
+<<<<<<< HEAD
     "active_layer": 0,
+=======
+    "active_layer": 2,
+>>>>>>> parent of e966e0d (Revert changes)
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,7 +68,15 @@
       39,
       40
     ],
+<<<<<<< HEAD
     "visible_layers": "fffffff_ffffffff",
+=======
+<<<<<<< Updated upstream
+    "visible_layers": "fffffff_ffffffff",
+=======
+    "visible_layers": "803ffff_ffffffff",
+>>>>>>> Stashed changes
+>>>>>>> parent of e966e0d (Revert changes)
     "zone_display_mode": 0
   },
   "git": {
