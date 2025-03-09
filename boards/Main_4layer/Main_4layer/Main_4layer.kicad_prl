@@ -1,18 +1,6 @@
 {
   "board": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "active_layer": 37,
-=======
-    "active_layer": 2,
->>>>>>> Stashed changes
-=======
-    "active_layer": 2,
->>>>>>> Stashed changes
-=======
-    "active_layer": 2,
->>>>>>> Stashed changes
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -76,19 +64,7 @@
       39,
       40
     ],
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "visible_layers": "800ffff_fffffff9",
-=======
-    "visible_layers": "803ffff_ffffffff",
->>>>>>> Stashed changes
-=======
-    "visible_layers": "803ffff_ffffffff",
->>>>>>> Stashed changes
-=======
-    "visible_layers": "803ffff_ffffffff",
->>>>>>> Stashed changes
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
