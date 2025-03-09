@@ -5336,12 +5336,6 @@
 		(uuid "261c69a9-7ba7-4e91-9503-4cd5011b159a")
 	)
 	(junction
-		(at 110.49 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "279bcd3d-cc05-492f-83f2-4b008ebe9b3e")
-	)
-	(junction
 		(at 232.41 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5430,12 +5424,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "901ac836-3bc5-4f1e-b9d6-f684f0ff9ad9")
-	)
-	(junction
-		(at 105.41 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b8c893e-f8e3-46be-8ad9-aa6d8d77e1bb")
 	)
 	(junction
 		(at 193.04 132.08)
@@ -6342,16 +6330,6 @@
 			(type default)
 		)
 		(uuid "c5388661-9190-4426-84a1-7d2ab82e30e8")
-	)
-	(wire
-		(pts
-			(xy 105.41 57.15) (xy 110.49 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7c185e5-4228-4c17-b5db-5506c3896a5f")
 	)
 	(wire
 		(pts
@@ -8660,10 +8638,13 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 44819e8 (Libraries added)
 		(lib_id "Device:C")
 		(at 105.41 53.34 180)
 		(unit 1)
@@ -8733,6 +8714,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
 =======
@@ -8741,6 +8723,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 44819e8 (Libraries added)
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 250.19 93.98 0)
 		(unit 1)
@@ -10649,75 +10633,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 105.41 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93f14d22-7fe0-478c-bc3e-8559a71a2ac2")
-		(property "Reference" "C1"
-			(at 110.49 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 112.014 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
-			(at 104.4448 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70d80f68-35d2-4040-bcee-b2e428e5628f")
-		)
-		(pin "2"
-			(uuid "a2401ae9-8abf-4228-82cd-0db009832a86")
-		)
-		(instances
-			(project "Main_4layer"
-				(path "/187ef870-6dee-45d7-ba09-9249896e2758"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 133.35 96.52 0)
 		(mirror y)
@@ -10995,72 +10910,6 @@
 			(project "Main_4layer"
 				(path "/187ef870-6dee-45d7-ba09-9249896e2758"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 49.53 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5f59242-12bb-4010-9b93-bb01e9f8a975")
-		(property "Reference" "#PWR025"
-			(at 105.41 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6c2dd73-f3eb-4f94-a893-86ad4a2f46fa")
-		)
-		(instances
-			(project "Main_4layer"
-				(path "/187ef870-6dee-45d7-ba09-9249896e2758"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
