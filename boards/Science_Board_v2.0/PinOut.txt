@@ -1,0 +1,37 @@
+Stepper Motor Controllers
+-------------------------
+Stepper Motor 1
+  - Pin 4 (RX) to Pin 1 (TX) on Teensy
+  - Pin 5 (TX) to Pin 0 (RX) on Teensy
+  - Pin 7 (STEP) to Pin 12 on Teensy
+  - Pin 8 (DIR) to Pin 27 on Teensy
+
+Stepper Motor 2
+  - Pin 4 (RX) to Pin 8 (TX) on Teensy
+  - Pin 5 (TX) to Pin 7 (RX) on Teensy
+  - Pin 7 (STEP) to Pin 11 on Teensy
+  - Pin 8 (DIR) to Pin 10 on Teensy
+
+Serial Inputs (Right Side)
+--------------------------
+Top Connector (H Bridge Serial) | Currently Unused
+  - Pin 21 (RX)
+  - Pin 20 (TX)
+
+Second Connector (Serial 1) | Probe/RS485 to Serial Converter
+  - Pin 17 (TX)
+  - Pin 16 (RX)
+
+Third Connector (Serial 2) | Motor Controller
+  - Pin 15 (RX/PWM)
+  - Pin 14 (TX/PWM)
+
+Fourth Connector (Bottom Right) (Serial 3) | Currently Unusued
+  - Pin 35 (TX)
+  - Pin 34 (RX)
+
+Serial Inputs (Left Side)
+-------------------------
+Connector (Brushed Motor Controller Serial) | Currently Unused
+  - Pin 28 (RX)
+  - Pin 29 (TX) 
